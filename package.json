@@ -9,13 +9,12 @@
     "url": "git://github.com/perfectworks/express-dump-router.git"
   },
   "dependencies": {
-    "path-to-regexp": "~0.2.1",
-    "express": "~4.4.4"
+    "express": "~4.4.4",
+    "path-to-regexp": "~0.2.1"
   },
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
-    "express": "~4.4.4",
     "request": "~2.36.0"
   },
   "main": "index"
