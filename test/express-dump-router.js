@@ -14,7 +14,9 @@ app.listen(9291);
 
 describe('dumpRouter', function () {
     it('should dump router list by function', function () {
-        assert.deepEqual(dumpRouter(app), [
+        assert.deepEqual(dumpRouter(app).map(function (regexp) {
+            return regexp.toString();
+        }), [
             '/^\\/foo\\/?$/i',
             '/^\\/bar\\/?$/i',
             '/^\\/baz\\/?$/i'
