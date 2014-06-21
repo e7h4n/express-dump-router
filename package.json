@@ -1,0 +1,22 @@
+{
+  "name": "express-dump-router",
+  "version": "0.0.1",
+  "description": "Dump router table of express app.",
+  "keywords": [],
+  "author": "perfectworks <perfectworks@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/perfectworks/express-dump-router.git"
+  },
+  "dependencies": {
+    "path-to-regexp": "~0.2.1",
+    "express": "~4.4.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "express": "~4.4.4",
+    "request": "~2.36.0"
+  },
+  "main": "index"
+}
