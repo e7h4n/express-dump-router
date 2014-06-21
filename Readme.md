@@ -6,10 +6,10 @@ Dump router list of express app.
 
 ```javascript
 var express = require('express');
-var dumpRouter = require('express-dump-router');
 var app = express();
 
-app.use('/__dump__router__', dumpRouter());
+var dumpRouter = require('express-dump-router');
+var routerList = dumpRouter(app);
 ```
 
 ## License 
