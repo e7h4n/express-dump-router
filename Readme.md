@@ -1,7 +1,16 @@
-
 # express-dump-router
 
-  Dump router table of express app.
+Dump router list of express app.
+
+## Usage
+
+```javascript
+var express = require('express');
+var dumpRouter = require('express-dump-router');
+var app = express();
+
+app.use('/__dump__router__', dumpRouter());
+```
 
 ## License 
 

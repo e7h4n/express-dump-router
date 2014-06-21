@@ -1,7 +1,7 @@
 {
   "name": "express-dump-router",
   "version": "0.0.1",
-  "description": "Dump router table of express app.",
+  "description": "Dump router list of express app.",
   "keywords": [],
   "author": "perfectworks <perfectworks@gmail.com>",
   "repository": {
